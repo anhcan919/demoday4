@@ -1,5 +1,60 @@
-$mautim: #87509c //Tím 
-$maungoc: #17c2a4 // Cyan
-$mauvang: #ffdd99 // Vang 
-$maudo: #d74680 // Đỏ 
-$mauxanh: #3c5499 // Xanh 
+$tim: #87509c //Tím 
+$ngoc: #17c2a4 // Cyan
+$vang: #ffdd99 // Vang 
+$do: #d74680 // Đỏ 
+$xanh: #3c5499 // Xanh 
+.home_slider
+	background: $tim
+	min-height: 368px
+	display: flex
+	justify-content: center
+	align-items: center
+	text-align: center
+	.btn-more
+		background: $vang
+		color: black
+	h1
+		font-size: 3rem
+		color: #fff
+		letter-spacing: 1px
+		padding-bottom: 30px
+.home_service
+	padding: 3rem
+	background: $ngoc
+	min-height: 368px
+	display: flex
+	align-items: center
+	text-align: center
+	color: #fff 
+	h3
+		font-size: 1.5rem
+		color: #fff
+	p
+		font-size: .8rem
+		color: lighten($ngoc,20%)
+		&.abc
+			color: #fff
+	img
+		max-width: 130px
+	h2
+		position: relative
+		&:before
+			content: ''
+			display: block
+			height: 2px
+			width: 50px
+			background: black
+			position: absolute
+			bottom: -5px
+			left: 50%
+			transform: translateX(-50%)
+
+
+
+
+
+
+
+	  
+
+		
