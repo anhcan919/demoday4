@@ -1,0 +1,35 @@
+.home_touch
+	padding: 2rem
+	background: $xanh
+	min-height: 600px
+	display: flex
+	text-align: center
+	align-items: center
+	justify-items: center
+	h2
+		color: #fff
+		margin-bottom: 20px
+		position: relative
+		&:before
+			content: ''
+			display: block
+			height: 2px
+			width: 50px
+			background: darken($xanh, 10%)
+			position: absolute
+			bottom: -10px
+			left: 45.5%
+			transform: translateX(50%)
+	p
+		color: #fff
+		font-size: 1rem
+	input
+		background: #273a71
+		color: #fff
+	textarea
+		background: #273a71
+		color: #fff
+	.btn-primary.btn-lg
+		background: $primary-color-blue
+		&:hover
+			background: $ngoc

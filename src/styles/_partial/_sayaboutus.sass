@@ -1,0 +1,36 @@
+.home_sayaboutus
+	padding: 2rem
+	background: $do
+	min-height: 600px
+	display: flex
+	text-align: center
+	align-items: center
+	justify-items: center
+	h2
+		color: #fff
+		margin-bottom: 20px
+		position: relative
+		&:before
+			content: ''
+			display: block
+			height: 2px
+			width: 50px
+			background: darken($do, 10%)
+			position: absolute
+			bottom: -10px
+			left: 45.5%
+			transform: translateX(50%)
+	img
+		border-radius: 50%
+		max-width: 80px
+	p
+		color: #fff
+		font-size: 1rem
+		&.cmt
+			text-align: left
+		&.nganh
+			color: $primary-color-orange
+			text-align: left
+	h4
+		text-align: left
+		color: #fff

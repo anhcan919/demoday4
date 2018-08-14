@@ -1,3 +1,17 @@
+header .bg-vio {
+  background: #87509c; }
+
+header ul.navbar-nav li.nav-item {
+  padding: 0 10px;
+  margin: 5px;
+  border-radius: 5px; }
+  header ul.navbar-nav li.nav-item.active {
+    background: #5b3669; }
+  header ul.navbar-nav li.nav-item:hover {
+    background: #5b3669; }
+  header ul.navbar-nav li.nav-item a {
+    padding: 5px; }
+
 .home_slider {
   background: #87509c;
   min-height: 600px;
@@ -81,12 +95,18 @@
   .home_aboutus h4 {
     font-size: 1rem;
     color: #30bae7; }
-  .home_aboutus i {
-    padding: 10px;
+  .home_aboutus ul li {
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    background: #bdd1df;
+    line-height: 35px;
     border-radius: 50%;
-    background-color: #bdd1df; }
+    align-items: center; }
+    .home_aboutus ul li a {
+      color: #fff; }
 
-.home.skillforus {
+.home_skillforus {
   padding: 2rem;
   background: #fff;
   min-height: 600px;
@@ -95,10 +115,10 @@
   align-items: center;
   justify-items: center;
   padding: 2rem; }
-  .home.skillforus h2 {
+  .home_skillforus h2 {
     margin-bottom: 20px;
     position: relative; }
-    .home.skillforus h2:before {
+    .home_skillforus h2:before {
       content: '';
       display: block;
       height: 2px;
@@ -108,30 +128,30 @@
       bottom: -10px;
       left: 45.5%;
       transform: translateX(50%); }
-  .home.skillforus p {
+  .home_skillforus p {
     margin-bottom: 30px;
     color: black;
     font-size: 1rem; }
-  .home.skillforus .skill_item {
+  .home_skillforus .skill_item {
     font-size: 240px; }
-    .home.skillforus .skill_item .blue .bar {
+    .home_skillforus .skill_item .blue .bar {
       border-color: #30bae7; }
-    .home.skillforus .skill_item .blue .fill {
+    .home_skillforus .skill_item .blue .fill {
       border-color: #30bae7; }
-    .home.skillforus .skill_item .pink .bar {
+    .home_skillforus .skill_item .pink .bar {
       border-color: #d74680; }
-    .home.skillforus .skill_item .pink .fill {
+    .home_skillforus .skill_item .pink .fill {
       border-color: #d74680; }
-    .home.skillforus .skill_item .green .bar {
+    .home_skillforus .skill_item .green .bar {
       border-color: #15c7a8; }
-    .home.skillforus .skill_item .green .fill {
+    .home_skillforus .skill_item .green .fill {
       border-color: #15c7a8; }
-    .home.skillforus .skill_item .orange .bar {
+    .home_skillforus .skill_item .orange .bar {
       border-color: #eb7d4b; }
-    .home.skillforus .skill_item .orange .fill {
+    .home_skillforus .skill_item .orange .fill {
       border-color: #eb7d4b; }
 
-.home.portfolio {
+.home_portfolio {
   padding: 2rem;
   background: #ffdd99;
   min-height: 1200px;
@@ -139,10 +159,10 @@
   text-align: center;
   align-items: center;
   justify-items: center; }
-  .home.portfolio h2 {
+  .home_portfolio h2 {
     margin-bottom: 20px;
     position: relative; }
-    .home.portfolio h2:before {
+    .home_portfolio h2:before {
       content: '';
       display: block;
       height: 2px;
@@ -152,26 +172,26 @@
       bottom: -10px;
       left: 45.5%;
       transform: translateX(50%); }
-  .home.portfolio img {
+  .home_portfolio img {
     width: 100%; }
-  .home.portfolio p {
+  .home_portfolio p {
     padding-top: 20px; }
-  .home.portfolio .btn-success {
+  .home_portfolio .btn-success {
     background: #17c2a4;
     color: #fff; }
-    .home.portfolio .btn-success:hover {
+    .home_portfolio .btn-success:hover {
       background: #d74680; }
-  .home.portfolio .btn-more {
+  .home_portfolio .btn-more {
     background: #ebc985;
     color: #fff;
     margin-left: 5px;
     margin-bottom: 5px;
     min-width: 100px; }
-    .home.portfolio .btn-more:hover {
+    .home_portfolio .btn-more:hover {
       background: #fff;
       color: #000; }
 
-.home.sayaboutus {
+.home_sayaboutus {
   padding: 2rem;
   background: #d74680;
   min-height: 600px;
@@ -179,11 +199,11 @@
   text-align: center;
   align-items: center;
   justify-items: center; }
-  .home.sayaboutus h2 {
+  .home_sayaboutus h2 {
     color: #fff;
     margin-bottom: 20px;
     position: relative; }
-    .home.sayaboutus h2:before {
+    .home_sayaboutus h2:before {
       content: '';
       display: block;
       height: 2px;
@@ -193,22 +213,22 @@
       bottom: -10px;
       left: 45.5%;
       transform: translateX(50%); }
-  .home.sayaboutus img {
+  .home_sayaboutus img {
     border-radius: 50%;
     max-width: 80px; }
-  .home.sayaboutus p {
+  .home_sayaboutus p {
     color: #fff;
     font-size: 1rem; }
-    .home.sayaboutus p.cmt {
+    .home_sayaboutus p.cmt {
       text-align: left; }
-    .home.sayaboutus p.nganh {
+    .home_sayaboutus p.nganh {
       color: #eb7d4b;
       text-align: left; }
-  .home.sayaboutus h4 {
+  .home_sayaboutus h4 {
     text-align: left;
     color: #fff; }
 
-.home.touch {
+.home_touch {
   padding: 2rem;
   background: #3c5499;
   min-height: 600px;
@@ -216,11 +236,11 @@
   text-align: center;
   align-items: center;
   justify-items: center; }
-  .home.touch h2 {
+  .home_touch h2 {
     color: #fff;
     margin-bottom: 20px;
     position: relative; }
-    .home.touch h2:before {
+    .home_touch h2:before {
       content: '';
       display: block;
       height: 2px;
@@ -230,18 +250,18 @@
       bottom: -10px;
       left: 45.5%;
       transform: translateX(50%); }
-  .home.touch p {
+  .home_touch p {
     color: #fff;
     font-size: 1rem; }
-  .home.touch input {
+  .home_touch input {
     background: #273a71;
     color: #fff; }
-  .home.touch textarea {
+  .home_touch textarea {
     background: #273a71;
     color: #fff; }
-  .home.touch .btn-primary.btn-lg {
+  .home_touch .btn-primary.btn-lg {
     background: #30bae7; }
-    .home.touch .btn-primary.btn-lg:hover {
+    .home_touch .btn-primary.btn-lg:hover {
       background: #17c2a4; }
 
 footer.footer {
@@ -256,19 +276,5 @@ footer.footer {
       color: #fff; }
       footer.footer ul li.item.active {
         color: #54ebd0; }
-
-header .bg-vio {
-  background: #87509c; }
-
-header ul.navbar-nav li.nav-item {
-  padding: 0 10px;
-  margin: 5px;
-  border-radius: 5px; }
-  header ul.navbar-nav li.nav-item.active {
-    background: #5b3669; }
-  header ul.navbar-nav li.nav-item:hover {
-    background: #5b3669; }
-  header ul.navbar-nav li.nav-item a {
-    padding: 5px; }
 
 /*# sourceMappingURL=main.css.map */

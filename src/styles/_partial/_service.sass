@@ -1,0 +1,32 @@
+.home_service
+	padding: 3rem
+	background: $ngoc
+	min-height: 600px
+	display: flex
+	align-items: center
+	text-align: center
+	color: #fff 
+	h3
+		font-size: 1.5rem
+		color: #fff
+	p
+		font-size: .8rem
+		color: lighten($ngoc,20%)
+		&.abc
+			font-size: 1rem
+			color: #fff
+	img
+		max-width: 200px
+	h2
+		padding-bottom: 10px
+		position: relative
+		&:before
+			content: ''
+			display: block
+			height: 2px
+			width: 50px
+			background: black
+			position: absolute
+			bottom: 2px
+			left: 50%
+			transform: translateX(-50%)
